@@ -1,0 +1,3 @@
+[submodule "cryptic-web"]
+	path = cryptic-web
+	url = https://github.com/cryptic-io/web.git

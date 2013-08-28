@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+        <!-- Cryptic's CSS -->
+        <link rel="stylesheet" href="/cryptic-web/cryptic.css">
+
+    </head>
+    <body>
+        <div class="row" id="header">
+            <div class="row">
+                <div class="span2" id="logo"></div>
+                <div class="pull-right" id="topBar">
+                    <div class="topBox carrotBtn span"><p> Blog </p><div class="selectedBar carrotSelected" style="left: 0px;"></div></div>
+                </div>
+            </div>
+        </div>
+	<div class=body>
+		<div id="mainContainer">
+
+          <div class="page">
+            <div class="site">
+             {{ content }}
+            </div>
+          </div>
+        </div>
+	</div>
+    <div id=footer>
+        <a href="/pricing">Pricing</a>
+        <a href="/help">Help</a>
+        <a href="/blog">Blog</a>
+        <a href="https://github.com/cryptic-io">Source</a>
+        <a href="/security">Security</a>
+        <a href="/privacy">Privacy</a>
+    </div>
+    </body>
+</html>
