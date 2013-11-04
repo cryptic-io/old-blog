@@ -25,9 +25,21 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+.topBox a {
+  font-family: "Lato",sans-serif;
+  font-size: 20pt;
+  line-height: 45px;
+  color: #f2f2f2;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 100%;
+}
+
+.topBox a:hover {
+  color: #f2f2f2;
+}
+
 
 /*****************************************************************************/
 /*
